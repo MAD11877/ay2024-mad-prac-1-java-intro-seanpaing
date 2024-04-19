@@ -18,7 +18,7 @@ public class Question3
 
     // Calculate the square of the entered integer
     int result = num*num;
-    String strResult = String.valueOf(strResult);
+    String strResult = String.valueOf(result);
 
     // Print out the result
     System.out.println(result);
