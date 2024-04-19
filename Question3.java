@@ -13,7 +13,7 @@ public class Question3
     Scanner in = new Scanner(System.in);
 
     // Prompt the user to enter an integer
-    System.out.print("Enter an integer: ");
+ 
     int num = in.nextInt();
 
     // Calculate the square of the entered integer

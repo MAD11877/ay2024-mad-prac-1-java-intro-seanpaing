@@ -6,7 +6,7 @@ public class Question5 {
         Scanner in = new Scanner(System.in);
         
         // Prompt the user for the number of integers
-        System.out.print("Enter the number of integers: ");
+
         int count = in.nextInt();
         
         // Create an array to store the integers
@@ -14,7 +14,6 @@ public class Question5 {
         
         // Prompt the user to enter the integers and store them in the array
         for (int i = 0; i < count; i++) {
-            System.out.print("Enter integer " + (i + 1) + ": ");
             numbers[i] = in.nextInt();
         }
         

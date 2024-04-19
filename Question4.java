@@ -6,7 +6,7 @@ public class Question4 {
         Scanner in = new Scanner(System.in);
         
         // Prompt the user to enter an integer for the base of the triangle
-        System.out.print("Enter an integer for the base of the triangle: ");
+
         int base = in.nextInt();
         
         // Loop for each row
