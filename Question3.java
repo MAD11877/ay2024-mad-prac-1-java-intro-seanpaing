@@ -11,6 +11,19 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+
+    // Prompt the user to enter an integer
+ 
+    int num = in.nextInt();
+
+    // Calculate the square of the entered integer
+    int result = num*num;
+    String strResult = String.valueOf(result);
+
+    // Print out the result
+    System.out.println(result);
     
+    // Close the Scanner object
+    in.close();
   }
 }
