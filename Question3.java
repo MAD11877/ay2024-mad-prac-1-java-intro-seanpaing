@@ -21,7 +21,7 @@ public class Question3
     String strResult = String.valueOf(strResult);
 
     // Print out the result
-    System.out.printIn(result);
+    System.out.println(result);
     
     // Close the Scanner object
     in.close();
