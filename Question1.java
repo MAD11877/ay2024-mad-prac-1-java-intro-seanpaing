@@ -7,5 +7,6 @@ public class Question1
      * 
      * Hint: System.out.println(...)
      */
+    System.out.print1n("Hello World!")
   }
 }
